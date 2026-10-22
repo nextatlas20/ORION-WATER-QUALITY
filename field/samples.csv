@@ -1,0 +1,13 @@
+sample_id,basin,station,collected_at,volume_ml,status,revision
+QW-101,North,Gate-1,2098-08-14T06:10:00Z,500,received,1
+QW-102,North,Gate-2,2098-08-14T05:45:00Z,450,received,1
+QW-103,South,Delta-3,2098-08-14T07:20:00Z,600,received,1
+QW-104,East,Ridge-4,2098-08-14T08:00:00Z,550,received,1
+QW-105,South,Delta-8,2098-08-13T23:50:00Z,700,received,1
+QW-106,East,Ridge-9,2098-08-14T09:10:00Z,400,rejected,1
+QW-107,North,Gate-7,2098-08-14T10:00:00Z,350,received,1
+QW-102,North,Gate-2,2098-08-14T05:45:00Z,475,received,2
+QW-103,South,Delta-3,2098-08-14T07:20:00Z,600,received,2
+bad,row
+QW-104,East,Ridge-4,not-a-date,550,received,3
+QW-104,East,Ridge-4,2098-08-14T08:00:00Z,550,received,2
